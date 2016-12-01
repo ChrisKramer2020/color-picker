@@ -5,4 +5,79 @@ html {
 body {
   margin: 0;
   font: 16px / 1 sans-serif;
+  background-color: rgb(181, 235, 245);
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+
+h3 {
+  position: absolute;
+  left: 200px;
+  top: 600px;
+}
+
+form {
+  text-align: center;
+  position: relative;
+  top: 400px;
+}
+
+li {
+  padding: 0.5em;
+  position: relative;
+  bottom: 300px;
+  list-style: none;
+  width: 100%;
+}
+
+.alpha {
+  text-align: left;
+  font-family: monospace;
+}
+
+.lightness {
+  text-align: left;
+  font-family: monospace;
+}
+
+.saturation {
+  text-align: left;
+  font-family: monospace;
+}
+
+.hue {
+  text-align: left;
+  font-family: monospace;
+}
+
+.swatch {
+  background-color: rgb(44, 25, 80);
+  position: relative;
+  padding: 5%;
+  top: 100px;
+  color: transparent;
+  margin: ;
+  border-radius: 15%;
+  border-width: 10px;
+  border-color: black;
+}
+
+.colorbox {
+  background-color: rgb(101, 93, 92);
+  color: transparent;
+  height: 100%;
+  padding: 30%;
+  position: relative;
+  top: 100px;
+  align-items: center;
+  border-style: solid;
+  border-radius: 15%;
+  margin: 20%;
+  border-width: 10px;
+  border-color: black;
+
 }

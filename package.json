@@ -1,7 +1,7 @@
 {
   "private": true,
   "scripts": {
-    "deploy": "surge ./public --domain color picker.ChrisKramer2020.surge.sh",
+    "deploy": "surge ./public --domain color-picker.ChrisKramer2020.surge.sh",
     "start": "browser-sync start --server 'public' --files 'public'"
   },
   "devDependencies": {

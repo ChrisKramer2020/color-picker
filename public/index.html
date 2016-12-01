@@ -7,7 +7,35 @@
     <link rel="stylesheet" href="/screen.css">
   </head>
   <body>
-    <h1>Hello, World!</h1>
+    <h1>An HSL Color Picker.</h1>
+    <div class = "colorbox">
+
+    </div>
+
+    <!<div class = "swatch">
+
+
+  <!</div>
+    <h3>hsla (180, 50%, 50%, .5)</h3>
+
+    <form>
+      <ul>
+      <li class="one">
+        <p class="hue">Hue</p>
+        <input name="a" type="range" min="0" max="360" value="180">
+      </li>
+      <li class="two">
+        <p class ="saturation">Saturation</p>
+        <input name="b" type="range" min="0" max="100" value="50">
+      </li>
+      <li class="three">
+        <p class ="lightness">Lightness</p>
+        <input name="c" type="range" min="0" max="100" value="50"></li>
+      <li class="four">
+        <p class ="alpha">Alpha</p>
+        <input name="d" type="range" min="0" step= ".01" max="1" value=".5"></li>
+    </ul>
+    </form>
     <script src="/main.js" charset="utf-8"></script>
   </body>
 </html>
